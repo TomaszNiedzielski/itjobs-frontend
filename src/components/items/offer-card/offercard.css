@@ -1,0 +1,40 @@
+.offer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 360px;
+    margin: 10px;
+    box-shadow: 0 0 16px -10px #595757;
+    border-radius: 15px;
+}
+.offer-card__container {
+    padding: 7px;
+}
+.offer-card__title {
+    font-size: 22px;
+    color: var(--global-color-primary);
+    font-weight: bold;
+}
+.offer-card__offer-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.offer-card__logo {
+    margin-bottom: 10px;
+}
+.offer-card__logo img {
+    height: 70px;
+}
+.offer-card__button {
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+    border-color: var(--global-color-primary);
+    font-weight: bold;
+    color: var(--global-color-primary);
+    margin-top: 10px;
+}

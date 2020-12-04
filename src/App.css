@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 900px;
+}
+:root {
+  --global-color-primary: #4287f5;
+}
